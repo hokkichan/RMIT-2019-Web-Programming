@@ -1,0 +1,27 @@
+Date	Name	Email	Mobile	MovieID	Day	Hour	"STA Qty"	"STP Qty"	"STC Qty"	"FCA Qty"	"FCP Qty"	"FCC Qty"	Total
+Name,"Hokki Chan"
+Email,hokkichan@gmail.com
+Mobile,
+"Movie ID",AHF
+Day,Wednesday
+Hour,12pm
+"STA Qty",1
+"STP Qty",1
+"STC Qty",1
+"FCA Qty",1
+"FCP Qty",1
+"FCC Qty",1
+Total,108
+Name,"Hokki Chan"
+Email,hokkichan@gmail.com
+Mobile,
+"Movie ID",AHF
+Day,Wednesday
+Hour,12pm
+"STA Qty",1
+"STP Qty",1
+"STC Qty",1
+"FCA Qty",1
+"FCP Qty",1
+"FCC Qty",1
+Total,108
