@@ -83,7 +83,7 @@ nav a.current {
 
 
 #about-us {
-  background-image: url("../../media/about.jpg");
+  background-image: url("../media/about.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -134,7 +134,7 @@ div.desc {
 }
 
 #price {
-  background-image: url("../../media/price.jpg");
+  background-image: url("../media/price.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -155,7 +155,7 @@ h1.now-showing, p.now-showing {
 
 
 #synopsis {
-  background-image: url("../../media/trailer.jpg");
+  background-image: url("../media/trailer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 45px;
@@ -252,7 +252,7 @@ th, td {
 }
 
 #booking {
-  background-image: url("../../media/booking.jpg");
+  background-image: url("../media/booking.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
