@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  scroll-behavior: smooth;
+}
+
+#about-us, #price, #synopsis, #booking {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-device-width: 768px) {
+  #about-us, #price, #synopsis, #booking {
+    background-attachment: scroll;
+  }
+}
+
+img.title {
+  display: block;
+  margin: 0 auto;
+}
+
+p.title1 {
+  color: gold;
+  text-align: center;
+  font-size: 230%;
+  font-weight: bold;
+  font-family: 'Great Vibes', cursive, 'Serif';
+}
+
+p.title2 {
+  color: white;
+  text-align: center;
+  font-size: 90%;
+  font-style: italic;
+  font-weight: bold;
+  font-family: serif;
+  padding-bottom: 15px;
+}
+
+header {
+  background-color: black;
+}
+
+nav {
+  top: 0px;
+  bottom: 0px;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  background-color: gold;
+}
+
+nav a {
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
+  display: inline-block;
+  background-color: gold;
+  color: white;
+  width: 15%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+nav a:hover {
+  background-color: darkorange;
+}
+
+nav a.current {
+  background-color: red;
+  transition: 0.2s;
+}
+
+
+#about-us {
+  background-image: url("../../media/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 100%;
+  padding-left: 15px;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  overflow: auto;
+}
+
+/*code of image gallery adapted from w3schools.com*/
+
+div.gallery {
+  padding-top:20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+  height:320px;
+  text-align: center;
+}
+
+div.gallery2 {
+  padding-top:50px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+  height:320px;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 80%;
+}
+
+div.gallery2 img {
+  width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#price {
+  background-image: url("../../media/price.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-left: 15px;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  overflow: auto;
+}
+
+#now-showing {
+  padding-top: 45px;
+  background-color: orange;
+}
+
+h1.now-showing, p.now-showing {
+  padding-left: 15px;
+}
+
+
+#synopsis {
+  background-image: url("../../media/trailer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  color: white;
+  overflow: auto;
+}
+
+#booking {
+  overflow: auto;
+}
+
+#synopsis-availability {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.date {
+  color: black;
+  line-height: 250%;
+  size: 150%;
+  text-align: center;
+}
+
+.poster {
+  display: flex;
+  justify-content: center;
+}
+
+/* Code for responsive and column model adapted from w3schools.com */
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px 5px 5px 5px;
+  height: 460px; 
+}
+
+.columnn {
+  float: left;
+  width: 30%;
+  padding: 5px 5px 5px 0px;
+  padding-bottom: 25px;
+  overflow: auto;
+}
+
+.columnw {
+  float: left;
+  width: 70%;
+  padding: 5px;
+  padding-bottom: 25px;
+  overflow: auto;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 50%;
+  }
+}
+
+.availability {
+  background-color: darkorange;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.availability:hover {
+  background-color: #111;
+}
+
+#booking {
+  background-image: url("../../media/booking.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  line-height: 150%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  line-height: 150%;
+}
+
+button {
+  color: black;
+  background-color: gold;
+  border-radius: 5px;
+}
+
+label {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  overflow: visible;
+}
